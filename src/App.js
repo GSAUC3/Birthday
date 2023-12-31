@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import './index.css'
 import './App.css';
+import { Cake } from './Components/Cake';
+import { Words } from './Components/Words';
+import { Card } from './Components/Card';
 
-function App() {
+
+const ExampleComponent = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>  
+    <div className="flex flex-col items-center justify-evenly gap-5">
 
-export default App;
+    <Words></Words>
+    <Cake></Cake>
+    <Card></Card>
+    </div>
+    {/* footer section credit Image by <a href="https://www.freepik.com/free-psd/birthday-vertical-blank-banner_43703287.htm#query=simple%20birthday%20card&position=31&from_view=search&track=ais&uuid=db2865ee-26ce-4ece-a5ec-2a32c6141e97">Freepik</a> */}
+    </>
+  );
+};
+
+export default ExampleComponent;
