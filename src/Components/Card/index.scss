@@ -5,6 +5,15 @@
 ::selection {
 	background: transparent;
 }
+video {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-shadow: inset 0px 0px 40px 40px #DBA632;
+	// box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
+
+  }
 
 h4 {
 	font-size: 26px;
@@ -12,8 +21,8 @@ h4 {
 	font-family: 'Amatic SC', cursive !important;
 }
 
-.color1{color:#1BBC9B}/*MOUNTAIN MEADOW*/
-.color2{color:#C0392B/*TALL POPPY*/}
+.color1{color:#1b1ebc}/*MOUNTAIN MEADOW*/
+.color2{color:#ff1900/*TALL POPPY*/}
 
 
 .card {
