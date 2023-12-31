@@ -14,7 +14,8 @@ body {
   background:rgb(42, 41, 41);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('https://img.freepik.com/free-vector/realistic-black-background-with-realistic-elements_23-2149159188.jpg?w=1380&t=st=1704028827~exp=1704029427~hmac=b15769e759346bfc6fb147413bcebd5c7d7ea81dd01aa3f33861accbccbeaca9');
+  background-image: url('https://i.pinimg.com/originals/d2/b9/26/d2b926abd523952a7c46979876c684b0.jpg');
+  /* background-image: url('https://i.pinimg.com/564x/b9/55/4d/b9554d9844e6e3fc01f63e71b9b8c10f.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover ;
