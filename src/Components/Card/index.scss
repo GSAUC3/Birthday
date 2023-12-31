@@ -54,7 +54,7 @@ h4 {
 	right: -5px;
 	width: 5px;
 	height: 100%;
-	background: #92A29C;
+	background: #25e69f;
 	transform-origin: left;
 	transform: skewY(-45deg);
 }
@@ -99,13 +99,13 @@ h4 {
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
-	padding: 0 0 0 10px;
+	padding: 5px;
 	z-index: -1;
 	margin-top: 70px;
 }
 
 .card .details p {
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 5px;
 	transform: rotate(-10deg);
 	padding: 0 0 0 20px;
